@@ -20,7 +20,7 @@ if (strlen($email) - 4 != 0)
 		{
 			$tempArray[1] = "Last Name: " . $lastName . "\n";
 		}
-		if (!(empty($lastName)))
+		if (!(empty($email)))
 		{
 			$tempArray[2] = "Email: " . substr($email, 0, -4) . "\n";
 		}
@@ -32,15 +32,10 @@ if (strlen($email) - 4 != 0)
 	} else
 	{
 		$userTxt = fopen($email, "w");
-		fwrite($userTxt, "First Name: ");
-		fwrite($userTxt, $firstName . "\n");
-		fwrite($userTxt, "Last Name: ");
-		fwrite($userTxt, $lastName . "\n");
-		fwrite($userTxt, "Email: ");
-		fwrite($userTxt, substr($email, 0, -4) . "\n");
-		fwrite($userTxt, "Age: ");
-		fwrite($userTxt, $age);
-
+		fwrite($userTxt, "First Name: " . $firstName . "\n");
+		fwrite($userTxt, "Last Name: " . $lastName . "\n");
+		fwrite($userTxt, "Email: " . substr($email, 0, -4) . "\n");
+		fwrite($userTxt, "Age: " . $age);
 		fclose($userTxt);
 	}
 }
