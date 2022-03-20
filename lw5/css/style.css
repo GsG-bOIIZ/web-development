@@ -1,229 +1,260 @@
-.header__logo
+a
 {
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 30.8354px;
-	line-height: 122.33%;
-	letter-spacing: -0.045em;
-	color: #000000;
-}
-.header__logo_text_extra, .main__headline_text_extra, .main__opportunities_headline_text_extra, .footer__paragraph_text_extra
-{
-	color: #ff00b3;
+    text-decoration: none;
+    color: unset;
 }
 
-.header__list_text
+.navigation-text
 {
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 20px;
-	color: #000000;
+    font: normal 500 16px/20px 'Montserrat';
+	color: #000;
 }
 
-.header__button_course
+.header__button-registration
 {
-	align-items: center;
-	width: 247px;	
-	background: #05090C;
+    width: 167px;
+    height: 17px; 	
+	background: #05090c;
+	border-radius: 4.59px; 
+    font: normal 600 16px/16px 'Montserrat';
+	color: #fff;  
+    padding: 19px 40px; 
+    text-align: center;
+}
+
+.info__headline
+{
+    font: normal 600 100px/1.22 'Montserrat';
+}
+
+.text_extra
+{
+    color: #ee58b6;
+}
+
+.info__about
+{
+    width: 545px;
+    font: normal 400 26px/1.2 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.info__button-registration
+{
+    width: 167px;
+    height: 17px;
+	background: #05090c;
 	border-radius: 4.59px;
+    font: normal 600 16px/16px 'Montserrat';
+	color: #fff;   
+    padding: 19px 82.5px; 
 }
 
-.header__button_course_text
+/*/////////////////////////////////////////////*/
+
+.main__short-description
 {
-	left: calc(50% - 167px/2);
-	top: calc(50% - 17px/2);
-	padding: 19px 40px;
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 16px;
-	text-align: center;
-	color: #FFFFFF;
+    width: 100%;
+    background: #000;   
 }
 
-.header__button_course:hover
+.panel__time
 {
-	opacity: 0.7;
-	transition-duration: 0.5s;
+    width: 285px;
+    height: 145px;
+    text-align: center;
 }
 
-.main__top_headline_text
+.time__image
 {
-	width: 745px;
-	height: 138.31px;
-
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 100px;
-	line-height: 122.35%;
-	color: #000000;
+    margin: 6px -1px -6px 1px;
 }
 
-.main__top_quote_text
+.time__text
 {
-	width: 545px;
-	height: 62px;
-
-	font-family: 'Roboto Condensed';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 26px;
-	line-height: 120%;
-	color: rgba(0, 0, 0, 0.7)
+    width: 303px;
+    font: normal 400 22px/1.2 'Roboto Condensed';
+    color: #fff;
+    margin-left: -9px;
 }
 
-.main__top_image_title
+.panel__notebook
 {
-	height: 636.87px;
-	width: 762px;
+    width: 337px;
+    height: 132px;
+    text-align: center;
 }
 
-.main__bottom_info
+.notebook__image
 {
-	height: 398px;
-	background: #000;
+    margin: 5px 1px -5px -1px;
 }
 
-.main__bottom_image_title
+.notebook__text
 {
-	width: 60px;
-	height: 60px;
+    width: 337px;
+    font: normal 400 22px/1.2 'Roboto Condensed';
+    color: #fff;
+    margin-left: 0px;
 }
 
-.main__bottom_info_paragraph_text
+.panel__target
 {
-	width: 353px;
-	height: 52px;
-	
-	font-family: 'Roboto Condensed';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 22px;
-	line-height: 120%;
-	text-align: center;
-	color: #FFFFFF;
+    width: 293px;
+    height: 132px;
+    text-align: center;
 }
 
-.main__deadline1_image_title
+.target__image
 {
-	width: 510px;
-	height: 476px;
+    margin: 5px 0px -5px 0px;
 }
 
-.main__deadline1_paragraph_headline
+.target__text
 {
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 48px;
-	line-height: 126.06%;
-	color: #000000;
+    width: 337px;
+    font: normal 400 22px/1.2 'Roboto Condensed';
+    color: #fff;
+    margin-left: -22px;
 }
 
-.main__deadline1_paragraph_text{
-	font-family: 'Roboto Condensed';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 135%;
-	color: rgba(0, 0, 0, 0.7);
-}
+/*/////////////////////////////////////////////*/
 
-.main__deadline2_image_title
+.deadline-headline
 {
-	width: 504px;
-	height: 691px;
+    font: normal 500 48px/1.26 'Montserrat';
+    color: #000;
 }
 
-.main__deadline2_paragraph_headline
+.deadline-text
 {
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 48px;
-	line-height: 126.06%;
-	color: #000000;
+    font: normal 400 18px/24px 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
 }
 
-.main__deadline2_paragraph_text{
-	font-family: 'Roboto Condensed';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 135%;
-	color: rgba(0, 0, 0, 0.7);
-}
-
-.main__opportunities_headline_text
+.fail__headline
 {
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 48px;
-	line-height: 59px;
-	text-align: center;
-	color: #000000;
+    width: 376px;
+    height: 61px;    
 }
 
-.main__opportunities_box
+.fail__text
 {
-	width: 358px;
-	height: 190px;
-	background: #000000;
-	border-radius: 7.35723px;
-	margin: 30px 30px;
+    width: 574px;
+    height: 48px;
+    margin: -23px 0 23px 0;
 }
 
-.main__opportunities_box_content_paragraph
+.again__headline
 {
-	font-family: 'Roboto Condensed';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px; 
-	line-height: 21px;
-
-	color: #FFFFFF;
+    width: 386px;
+    height: 61px;
 }
 
-.main__opportunities_box_content_image_title
+.again__text
 {
-	height: 49px;
+    width: 574px;
+    height: 44px;
+    margin: -23px 0 23px 0;
 }
 
-.main__opportunities_box_content
+/*///////////////////////////////////////////////*/
+
+.opportunities__headline
 {
-	padding: 30px 39px;
+    width: 553px;
+    height: 59px;
+    font: normal 500 48px/59px 'Montserrat';
+    color: #000;
+    text-align: center;
 }
 
-.footer__paragraph
+.block-opportunities
 {
-	height: 108px;
-	background: #000000;
-	text-align: center;
-	
+    width: 358px;
+    height: 190px;
+    background: #000;
+    border-radius: 7.36px;
+    margin: 30px;
+    color: #fff;
 }
 
-.footer__paragraph_text
+.opportunities-text
 {
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 30.8354px;
-	line-height: 122.33%;
-	letter-spacing: -0.045em;
-	color: #FFFFFF;
+    width: 269.77px;
+    height: 51.5px;
+    font: normal 400 18px/21px 'Roboto Condensed';
 }
 
-.main__bottom_info_image
+.opportunities-content__first
 {
-	position: relative;
-	width: 60px;
-	height: 60px;
-	left: 146px;
-	top: 0px;
+    padding: 32px 0 0 38px;
+}
+
+.opportunities-content__second
+{
+    padding: 32px 0 0 39px;
+}
+
+.opportunities-content__third
+{
+    padding: 32px 0 0 38px;
+}
+
+.opportunities-content__fourth
+{
+    padding: 33px 0 0 38px;
+}
+
+.opportunities-content__fifth
+{
+    padding: 33px 0 0 39px;
+}
+
+.opportunities-content__sixth
+{
+    padding: 33px 0 0 38px;
+}
+
+.opportunities__first-text
+{
+    margin-left: 1px;
+    margin-top: 17px;
+}
+
+.opportunities__second-text
+{
+    margin-left: 1px;
+    margin-top: 17px;
+}
+
+.opportunities__third-text
+{
+    margin-left: 1px;
+    margin-top: 17px;
+}
+
+.opportunities__fourth-text
+{
+    margin-left: 1px;
+    margin-top: 16px;
+} 
+
+.opportunities__fifth-text
+{
+    margin-top: 16px;
+} 
+
+.opportunities__sixth-text
+{
+    margin-left: 1px;
+    margin-top: 16px;
+    width: 286px;
+}
+
+.footer
+{
+    background: #000;
+    padding: 35px 0 35.31px 0;
+    text-align: center;
 }
