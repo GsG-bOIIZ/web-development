@@ -1,0 +1,421 @@
+body
+{
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: unset;
+}
+
+.navigation-text
+{
+    font: normal 500 16px/20px 'Montserrat';
+	color: #000;
+}
+
+.header__button-registration
+{
+    width: 167px;
+    height: 17px; 	
+	background: #05090c;
+	border-radius: 4.59px; 
+    font: normal 600 16px/16px 'Montserrat';
+	color: #fff;  
+    padding: 19px 40px; 
+    text-align: center;
+    position: relative;
+    right: 103px;
+}
+
+.info__headline
+{
+    font: normal 600 100px/1.22 'Montserrat';
+    position: relative;
+    top: -59px;
+    left: 16px;
+}
+
+.text_extra
+{
+    color: #ee58b6;
+}
+
+.info__about
+{
+    width: 545px;
+    font: normal 400 26px/1.2 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: -138px;
+    left: 16px;
+}
+
+.info__button-registration
+{
+    width: 167px;
+    height: 17px;
+	background: #05090c;
+	border-radius: 4.59px;
+    font: normal 600 16px/16px 'Montserrat';
+	color: #fff;   
+    padding: 18px 83px; 
+    position: relative;
+    top: -99px;
+    left: 16px;
+}
+
+/*/////////////////////////////////////////////*/
+
+.main__short-description
+{
+    width: 100%;
+    background: #000; 
+    height: 398px;
+    position: relative;
+    top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.panel__time
+{
+    width: 285px;
+    height: 145px;
+    text-align: center;
+    position: relative;
+    left: -4px;
+}
+
+.time__image
+{
+    margin: 5px 0px -5px 0px;
+}
+
+.time__text
+{
+    width: 303px;
+    font: normal 400 22px/1.2 'Roboto Condensed';
+    color: #fff;
+    margin-left: -9px;
+}
+
+.panel__notebook
+{
+    width: 337px;
+    height: 132px;
+    text-align: center;
+}
+
+.notebook__image
+{
+    margin: 5px 1px -5px -1px;
+}
+
+.notebook__text
+{
+    width: 337px;
+    font: normal 400 22px/1.2 'Roboto Condensed';
+    color: #fff;
+    margin-left: 0px;
+}
+
+.panel__target
+{
+    width: 293px;
+    height: 132px;
+    text-align: center;
+    position: relative;
+    left: -4px;
+}
+
+.target__image
+{
+    margin: 5px -1px -5px 1px;
+}
+
+.target__text
+{
+    width: 337px;
+    font: normal 400 22px/1.2 'Roboto Condensed';
+    color: #fff;
+    margin-left: -21px;
+}
+
+/*/////////////////////////////////////////////*/
+
+.deadline-headline
+{
+    font: normal 500 48px/1.26 'Montserrat';
+    color: #000;
+}
+
+.deadline-text
+{
+    font: normal 400 18px/24px 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.fail__headline
+{
+    width: 376px;
+    height: 61px;
+}
+
+.fail__text
+{
+    width: 574px;
+    height: 48px;
+    margin: -23px 0 23px 0;
+}
+
+.again__headline
+{
+    width: 386px;
+    height: 61px;
+}
+
+.again__text
+{
+    width: 574px;
+    height: 44px;
+    margin: -23px 0 23px 0;
+}
+
+/*///////////////////////////////////////////////*/
+
+.opportunities__headline
+{
+    width: 553px;
+    height: 59px;
+    font: normal 500 48px/59px 'Montserrat';
+    color: #000;
+    text-align: center;
+}
+
+.block-opportunities
+{
+    width: 358px;
+    height: 190px;
+    background: #000;
+    border-radius: 7.36px;
+    margin: 15px 0;
+    color: #fff;
+}
+
+.opportunities-text
+{
+    width: 269.77px;
+    height: 51.5px;
+    font: normal 400 18px/21px 'Roboto Condensed';
+}
+
+.opportunities-content__first
+{
+    padding: 32px 0 0 39px;
+}
+
+.opportunities-content__second
+{
+    padding: 32px 0 0 40px;
+}
+
+.opportunities-content__third
+{
+    padding: 32px 0 0 39px;
+}
+
+.opportunities-content__fourth
+{
+    padding: 33px 0 0 39px;
+}
+
+.opportunities-content__fifth
+{
+    padding: 33px 0 0 40px;
+}
+
+.opportunities-content__sixth
+{
+    padding: 33px 0 0 39px;
+}
+
+.opportunities__first-text
+{
+    margin-left: 1px;
+    margin-top: 17px;
+}
+
+.opportunities__second-text
+{
+    margin-left: 1px;
+    margin-top: 17px;
+}
+
+.opportunities__third-text
+{
+    margin-left: 1px;
+    margin-top: 17px;
+}
+
+.opportunities__fourth-text
+{
+    margin-left: 1px;
+    margin-top: 16px;
+} 
+
+.opportunities__fifth-text
+{
+    margin-top: 16px;
+    margin-left: 1px;
+} 
+
+.opportunities__sixth-text
+{
+    margin-left: 1px;
+    margin-top: 17px;
+    width: 286px;
+}
+
+.footer
+{
+    background: #000;
+    padding: 35px 0 35.31px 0;
+    text-align: center;
+    margin-top: 349px;
+}
+
+.header
+{
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.header__logo
+{
+    position: relative;
+    top: -2px;
+    left: 122px;
+}
+
+
+.header__navigation
+{
+    width: 469px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 308px;
+    top: 1px;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__front-page
+{
+    width: 1580px;
+    height: 732px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.front-page__image
+{
+    position: relative;
+    right: 27px;
+    bottom: 4px;
+}
+
+.short-description__panel
+{
+    display: flex;
+    justify-content: space-between;
+    width: 1137px;
+    position: relative;
+    top: -21px;
+    left: 13px;
+}
+
+.main__deadline
+{
+    width: 1136px;
+}
+
+.deadline__fail
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+    margin-left: -19px;
+}
+
+.fail__paragrph
+{
+    position: relative;
+    top: 42px;
+    left: 10px;
+}
+
+.deadline__again
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+    margin-left: -19px;
+}
+
+.again__paragrph
+{
+    position: relative;
+    top: -15px;
+    left: 28px;
+}
+
+.again__image
+{
+    position: relative;
+    top: -7px;
+    left: -94px;
+}
+
+.main__opportunities
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 79px;
+    left: 8px;
+}
+
+.opportunities-content_flex
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1134px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: -4px;
+    left: 0px;
+}
+
+.footer__logo
+{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
