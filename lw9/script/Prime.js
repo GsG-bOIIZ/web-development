@@ -27,19 +27,4 @@ function isPrimeNumber(n) {
         else
             console.log(x + ' is not a prime number');
     }
-
-
-
-    // function isPrimeNumber(x) {
-    //     let isPrime;
-    //     for (let i = 2; i <= x && isPrime; i++) {
-    //         isPrime = true;
-    //         for (let j = 2; j < i; j++) {
-    //             if (i % j == 0) {
-    //                 isPrime = false;
-    //                 break;
-    //             }
-    //         }
-    //     }
-    // }
 }
